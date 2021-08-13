@@ -4,7 +4,7 @@ document.getElementById('btnEnviar').addEventListener('click', () => {
 
     const message = document.getElementById('txtMensagem').value;
 
-    const endpoint = 'http://localhost/telegram-api/api.php?m=' + message;
+    const endpoint = 'http://teste-bot.tk/api.php?m=' + message;
 
     if (message.trim().length <= 0) {
         alert('Informe uma mensagem!');
